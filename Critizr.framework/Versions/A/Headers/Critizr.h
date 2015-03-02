@@ -8,4 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Critizr/CRFeedbackWidget.h>
+#import <Critizr/CRFeedbackDialog.h>

@@ -11,8 +11,9 @@
 @implementation BIOStoreViewController
 
 - (IBAction)didTouchGiveFeedback:(id)sender {
-    CRFeedbackWidget *critizrWidget = [CRFeedbackWidget feedbackWidgetWithAPIKey:@"15a2e2ea8b794e977e28f8534929ebe7"];
-    [critizrWidget presentFeedbackWidgetFrom:self withStoreId:@"8"];
+    CRFeedbackDialog *critizrDialog = [CRFeedbackDialog feedbackDialogWithAPIKey:@"15a2e2ea8b794e977e28f8534929ebe7"];
+    [critizrDialog presentFeedbackDialogFrom:self withStoreId:8];
 }
+
 
 @end

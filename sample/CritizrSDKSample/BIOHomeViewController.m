@@ -11,22 +11,22 @@
 @implementation BIOHomeViewController
 
 - (IBAction)didTouchGiveFeedback:(id)sender {
-    CRFeedbackWidget *critizrWidget = [CRFeedbackWidget feedbackWidgetWithAPIKey:@"15a2e2ea8b794e977e28f8534929ebe7"];
-    [critizrWidget presentFeedbackWidgetFrom:self];
+    CRFeedbackDialog *critizrDialog = [CRFeedbackDialog feedbackDialogWithAPIKey:@"15a2e2ea8b794e977e28f8534929ebe7"];
+    [critizrDialog presentFeedbackDialogFrom:self];
 }
 
-#pragma mark - Feedback Widget Delegate
+#pragma mark - Feedback Dialog Delegate
 
-/* OPTIONAL : Implementing CRFeedbackWidgetDelegate.
-   If your View Controller conforms the CRFeedbackWidgetDelegate protocol, this method is gonna be called after the widget is closed.
-*/
+/* OPTIONAL : Implementing CRFeedbackDialogDelegate.
+ If your View Controller conforms the CRFeedbackDialogDelegate protocol, this method is gonna be called after the dialog is closed.
+ */
 
-- (void) feedbackWidgetDidCloseWithMessageSent:(BOOL)messageSent {
+- (void) feedbackDialogDidCloseWithMessageSent:(BOOL)messageSent {
     if (messageSent) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"CRFeedbackWidgetDelegate Demo" message:@"Merci d'avoir envoyé un message !" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"CRFeedbackDialogDelegate Demo" message:@"Merci d'avoir envoyé un message !" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
         [alert show];
     } else {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"CRFeedbackWidgetDelegate Demo" message:@"Vous venez de quitter le widget Critizr. Essayez maintenant d'envoyer un message !" delegate:nil cancelButtonTitle:@"OK !" otherButtonTitles:nil, nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"CRFeedbackDialogDelegate Demo" message:@"Vous venez de quitter la boite de dialogue Critizr. Essayez maintenant d'envoyer un message !" delegate:nil cancelButtonTitle:@"OK !" otherButtonTitles:nil, nil];
         [alert show];
     }
 }

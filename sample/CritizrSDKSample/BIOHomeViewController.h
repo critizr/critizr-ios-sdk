@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <Critizr/Critizr.h>
 
-@interface BIOHomeViewController : UIViewController <CRFeedbackWidgetDelegate>
+@interface BIOHomeViewController : UIViewController <CRFeedbackDialogDelegate>
 
 @end
