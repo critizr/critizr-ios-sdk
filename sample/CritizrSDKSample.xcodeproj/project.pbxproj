@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C83ECA01AA4CA1900582645 /* Critizr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C83EC9F1AA4CA1900582645 /* Critizr.framework */; };
+		8C2DA8521AA5B114002551C0 /* Critizr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2DA8511AA5B114002551C0 /* Critizr.framework */; };
 		8CA70B351AA4AE8600AC75FB /* BIOHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA70B321AA4AE8600AC75FB /* BIOHomeViewController.m */; };
 		8CA70B361AA4AE8600AC75FB /* BIOStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA70B341AA4AE8600AC75FB /* BIOStoreViewController.m */; };
 		8CA70B3C1AA4B20400AC75FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDEA4C71AA4ADCE00FC7BC5 /* Main.storyboard */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C83EC9F1AA4CA1900582645 /* Critizr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Critizr.framework; path = ../Critizr.framework; sourceTree = "<group>"; };
+		8C2DA8511AA5B114002551C0 /* Critizr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Critizr.framework; sourceTree = "<group>"; };
 		8CA70B311AA4AE8600AC75FB /* BIOHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOHomeViewController.h; sourceTree = "<group>"; };
 		8CA70B321AA4AE8600AC75FB /* BIOHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIOHomeViewController.m; sourceTree = "<group>"; };
 		8CA70B331AA4AE8600AC75FB /* BIOStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOStoreViewController.h; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C83ECA01AA4CA1900582645 /* Critizr.framework in Frameworks */,
+				8C2DA8521AA5B114002551C0 /* Critizr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 		8CDEA4AE1AA4ADCE00FC7BC5 = {
 			isa = PBXGroup;
 			children = (
-				8C83EC9F1AA4CA1900582645 /* Critizr.framework */,
+				8C2DA8511AA5B114002551C0 /* Critizr.framework */,
 				8CDEA4B91AA4ADCE00FC7BC5 /* CritizrSDKSample */,
 				8CDEA4B81AA4ADCE00FC7BC5 /* Products */,
 			);
