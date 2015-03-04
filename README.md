@@ -1,5 +1,5 @@
 # Critizr SDK for iOS
 
-Téléchargez Critizr.framework pour commencer.
+Version 1.0
 
 Lien vers la documentation : http://critizr.com/pro/developers/sdk/ios/
