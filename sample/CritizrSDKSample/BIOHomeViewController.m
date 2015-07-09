@@ -11,7 +11,7 @@
 @implementation BIOHomeViewController
 
 - (IBAction)didTouchGiveFeedback:(id)sender {
-    CRFeedbackDialog *critizrDialog = [CRFeedbackDialog feedbackDialogWithAPIKey:@"15a2e2ea8b794e977e28f8534929ebe7"];
+    CRFeedbackDialog *critizrDialog = [CRFeedbackDialog feedbackDialogWithAPIKey:@"3f672def9b5902a4eb4ab5c936bc7b0d"];
     [critizrDialog presentFeedbackDialogFrom:self];
 }
 

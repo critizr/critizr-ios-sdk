@@ -9,3 +9,4 @@
 #import <Foundation/Foundation.h>
 
 #import <Critizr/CRFeedbackDialog.h>
+#import <Critizr/CRSdk.h>

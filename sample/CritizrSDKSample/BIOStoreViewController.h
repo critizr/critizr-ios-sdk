@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <Critizr/Critizr.h>
 
-@interface BIOStoreViewController : UIViewController
+@interface BIOStoreViewController : UIViewController <CRSdkDelegate>
 
 @end
