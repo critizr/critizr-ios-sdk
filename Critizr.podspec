@@ -16,7 +16,7 @@ D’obtenir la note de relation client d’un point de vente"
 
   s.platform     = :ios
   s.source       = { :git => "https://github.com/critizr/critizr-ios-sdk.git", :tag => "v1.0.1" }
-  s.source_files  = "Critizr.framework/*"
+  s.vendored_frameworks = "Critizr.framework"
   s.requires_arc = true
 
 end
