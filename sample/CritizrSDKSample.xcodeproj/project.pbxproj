@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5318C2527D7664D229CA0262 /* libPods-CritizrSDKSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD18911B567E68BE0E5B228E /* libPods-CritizrSDKSample.a */; };
+		648B1FA01CEF4AB300A66E7E /* Critizr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648B1F9F1CEF4AB300A66E7E /* Critizr.framework */; };
 		8CA70B351AA4AE8600AC75FB /* BIOHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA70B321AA4AE8600AC75FB /* BIOHomeViewController.m */; };
 		8CA70B361AA4AE8600AC75FB /* BIOStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA70B341AA4AE8600AC75FB /* BIOStoreViewController.m */; };
 		8CA70B3C1AA4B20400AC75FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDEA4C71AA4ADCE00FC7BC5 /* Main.storyboard */; };
@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		648B1F9F1CEF4AB300A66E7E /* Critizr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Critizr.framework; sourceTree = "<group>"; };
 		8CA70B311AA4AE8600AC75FB /* BIOHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOHomeViewController.h; sourceTree = "<group>"; };
 		8CA70B321AA4AE8600AC75FB /* BIOHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIOHomeViewController.m; sourceTree = "<group>"; };
 		8CA70B331AA4AE8600AC75FB /* BIOStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOStoreViewController.h; sourceTree = "<group>"; };
@@ -30,9 +31,6 @@
 		8CDEA4C81AA4ADCE00FC7BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CDEA4CA1AA4ADCE00FC7BC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8CDEA4CD1AA4ADCE00FC7BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CD18911B567E68BE0E5B228E /* libPods-CritizrSDKSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CritizrSDKSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEE46C3531DDDCE1EC1A042D /* Pods-CritizrSDKSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CritizrSDKSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CritizrSDKSample/Pods-CritizrSDKSample.release.xcconfig"; sourceTree = "<group>"; };
-		F0CAD910CC71DAD5777F2681 /* Pods-CritizrSDKSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CritizrSDKSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CritizrSDKSample/Pods-CritizrSDKSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5318C2527D7664D229CA0262 /* libPods-CritizrSDKSample.a in Frameworks */,
+				648B1FA01CEF4AB300A66E7E /* Critizr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +50,6 @@
 			children = (
 				8CDEA4B91AA4ADCE00FC7BC5 /* CritizrSDKSample */,
 				8CDEA4B81AA4ADCE00FC7BC5 /* Products */,
-				BCF29D5900EE7F8D0FC72D5A /* Pods */,
-				95B2651413C051C28C8CAED0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +64,7 @@
 		8CDEA4B91AA4ADCE00FC7BC5 /* CritizrSDKSample */ = {
 			isa = PBXGroup;
 			children = (
+				648B1F9F1CEF4AB300A66E7E /* Critizr.framework */,
 				8CA70B311AA4AE8600AC75FB /* BIOHomeViewController.h */,
 				8CA70B321AA4AE8600AC75FB /* BIOHomeViewController.m */,
 				8CA70B331AA4AE8600AC75FB /* BIOStoreViewController.h */,
@@ -91,23 +88,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		95B2651413C051C28C8CAED0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CD18911B567E68BE0E5B228E /* libPods-CritizrSDKSample.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BCF29D5900EE7F8D0FC72D5A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F0CAD910CC71DAD5777F2681 /* Pods-CritizrSDKSample.debug.xcconfig */,
-				CEE46C3531DDDCE1EC1A042D /* Pods-CritizrSDKSample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,12 +95,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CDEA4DD1AA4ADCE00FC7BC5 /* Build configuration list for PBXNativeTarget "CritizrSDKSample" */;
 			buildPhases = (
-				A568BE19308C142F8A69238C /* Check Pods Manifest.lock */,
 				8CDEA4B31AA4ADCE00FC7BC5 /* Sources */,
 				8CDEA4B41AA4ADCE00FC7BC5 /* Frameworks */,
 				8CDEA4B51AA4ADCE00FC7BC5 /* Resources */,
-				5AC6688FBE41B51A0BFA2234 /* Embed Pods Frameworks */,
-				9D988371E00C0C5DAAFE0B5D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,54 +152,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5AC6688FBE41B51A0BFA2234 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CritizrSDKSample/Pods-CritizrSDKSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9D988371E00C0C5DAAFE0B5D /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CritizrSDKSample/Pods-CritizrSDKSample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A568BE19308C142F8A69238C /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8CDEA4B31AA4ADCE00FC7BC5 /* Sources */ = {
@@ -337,7 +266,6 @@
 		};
 		8CDEA4DE1AA4ADCE00FC7BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0CAD910CC71DAD5777F2681 /* Pods-CritizrSDKSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -359,7 +287,6 @@
 		};
 		8CDEA4DF1AA4ADCE00FC7BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE46C3531DDDCE1EC1A042D /* Pods-CritizrSDKSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
