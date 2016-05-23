@@ -2,4 +2,4 @@
 
 Version 1.0.1
 
-Documentation link : http://critizr.com/pro/developers/sdk/ios/
+Documentation link : http://developers.critizr.com/docs/ios_sdk.html
