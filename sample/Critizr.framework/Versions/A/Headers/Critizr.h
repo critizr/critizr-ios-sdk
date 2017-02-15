@@ -8,7 +8,5 @@
 
 #import <Foundation/Foundation.h>
 
-#warning Critizr SDK en PRE PRODUCTION
-
 #import <Critizr/CRFeedbackDialog.h>
 #import <Critizr/CRSdk.h>

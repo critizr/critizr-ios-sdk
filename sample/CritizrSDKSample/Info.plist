@@ -35,6 +35,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>CritizrAPIKey</key>
+	<string>7f614697ac3524af3ca4ce0df9164caf</string>
+	<key>CritizrEnvironement</key>
+	<string>Production</string>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
 		<key>UINavigationBar</key>

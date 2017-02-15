@@ -11,15 +11,11 @@
 @implementation BIOHomeViewController
 
 - (IBAction)didTouchGiveFeedback:(id)sender {
-    CRFeedbackDialog *critizrDialog = [CRFeedbackDialog feedbackDialogWithAPIKey:@"3f672def9b5902a4eb4ab5c936bc7b0d"];
-    [critizrDialog presentFeedbackDialogFrom:self];
+    CRFeedbackDialog *critizrDialog = [CRFeedbackDialog feedbackDialog];
+    [critizrDialog presentFeedbackDialogFrom:self withParams:NULL];
 }
 
 #pragma mark - Feedback Dialog Delegate
-
-/* OPTIONAL : Implementing CRFeedbackDialogDelegate.
- If your View Controller conforms the CRFeedbackDialogDelegate protocol, this method is gonna be called after the dialog is closed.
- */
 
 - (void) feedbackDialogDidCloseWithMessageSent:(BOOL)messageSent {
     if (messageSent) {

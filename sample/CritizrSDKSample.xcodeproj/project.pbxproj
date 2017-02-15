@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		648B1FA01CEF4AB300A66E7E /* Critizr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648B1F9F1CEF4AB300A66E7E /* Critizr.framework */; };
+		09E0FF121E54B8B80077815E /* Critizr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E0FF111E54B8B80077815E /* Critizr.framework */; };
 		8CA70B351AA4AE8600AC75FB /* BIOHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA70B321AA4AE8600AC75FB /* BIOHomeViewController.m */; };
 		8CA70B361AA4AE8600AC75FB /* BIOStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA70B341AA4AE8600AC75FB /* BIOStoreViewController.m */; };
 		8CA70B3C1AA4B20400AC75FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDEA4C71AA4ADCE00FC7BC5 /* Main.storyboard */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		648B1F9F1CEF4AB300A66E7E /* Critizr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Critizr.framework; sourceTree = "<group>"; };
+		09E0FF111E54B8B80077815E /* Critizr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Critizr.framework; sourceTree = "<group>"; };
 		8CA70B311AA4AE8600AC75FB /* BIOHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOHomeViewController.h; sourceTree = "<group>"; };
 		8CA70B321AA4AE8600AC75FB /* BIOHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIOHomeViewController.m; sourceTree = "<group>"; };
 		8CA70B331AA4AE8600AC75FB /* BIOStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOStoreViewController.h; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648B1FA01CEF4AB300A66E7E /* Critizr.framework in Frameworks */,
+				09E0FF121E54B8B80077815E /* Critizr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +48,7 @@
 		8CDEA4AE1AA4ADCE00FC7BC5 = {
 			isa = PBXGroup;
 			children = (
+				09E0FF111E54B8B80077815E /* Critizr.framework */,
 				8CDEA4B91AA4ADCE00FC7BC5 /* CritizrSDKSample */,
 				8CDEA4B81AA4ADCE00FC7BC5 /* Products */,
 			);
@@ -64,7 +65,6 @@
 		8CDEA4B91AA4ADCE00FC7BC5 /* CritizrSDKSample */ = {
 			isa = PBXGroup;
 			children = (
-				648B1F9F1CEF4AB300A66E7E /* Critizr.framework */,
 				8CA70B311AA4AE8600AC75FB /* BIOHomeViewController.h */,
 				8CA70B321AA4AE8600AC75FB /* BIOHomeViewController.m */,
 				8CA70B331AA4AE8600AC75FB /* BIOStoreViewController.h */,
@@ -119,6 +119,7 @@
 				TargetAttributes = {
 					8CDEA4B61AA4ADCE00FC7BC5 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = RVYNC7UMEC;
 					};
 				};
 			};
@@ -268,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RVYNC7UMEC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -289,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RVYNC7UMEC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

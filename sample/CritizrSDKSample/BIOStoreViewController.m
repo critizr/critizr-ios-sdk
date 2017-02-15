@@ -15,26 +15,30 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    CRSdk *sdk = [CRSdk critizrSDKInstanceWithAPIKey:@"3f672def9b5902a4eb4ab5c936bc7b0d" andDelegate:self];
-    [sdk fetchRatingForPlace:@"8" withDelegate:self];
+    CRSdk *sdk = [CRSdk critizrSDKInstance:self];
+    [sdk fetchRatingForPlace:@"velo-aix-en-provence" withDelegate:self];
 
     return [super viewWillAppear:animated];
 }
 - (IBAction)didTouchGiveFeedback:(id)sender {
-    CRFeedbackDialog *critizrDialog = [CRFeedbackDialog feedbackDialogWithAPIKey:@"3f672def9b5902a4eb4ab5c936bc7b0d"];
-    [critizrDialog presentFeedbackDialogFrom:self withStoreId:8];
+    CRFeedbackDialog *feedbackDialog = [CRFeedbackDialog feedbackDialog];
+    NSString *storeID = @"velo-aix-en-provence";
+    NSDictionary *params = @{
+                             @"mode" : @"feedback",
+                             @"user" : @"YXJuYXVkfGFybmF1ZC5sYW5jZWxvdEBjcml0aXpyLmNvbQ=="
+                             // user correspond à arnaud|arnaud.lancelot@critizr.com encodé en BASE64
+                             };
+    [feedbackDialog presentFeedbackDialogFrom:self withStoreIdString:storeID withParams:params];
 }
 
 #pragma mark CRSDKDelegate
 
 -(void)critizrPlaceRatingFetched:(double)aPlaceRating
 {
-    
+    NSLog(@"Rating -> %f", aPlaceRating);
 }
 
--(void) critizrPlaceRatingError:(NSError *)anError {
-    
-}
+-(void) critizrPlaceRatingError:(NSError *)anError {}
 
 
 @end
